@@ -54,4 +54,5 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 
 int _pow_rec(int x, int y);
+int is_full_rec(const binary_tree_t *tree);
 #endif
